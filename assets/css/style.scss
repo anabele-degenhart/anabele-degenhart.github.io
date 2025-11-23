@@ -1,0 +1,47 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Remove debug background */
+body {
+  background: #ffffff;
+}
+
+/* Clean, elegant navigation bar */
+.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 2rem auto;
+  padding: 0.5rem 1.5rem;
+
+  max-width: 800px;
+
+  background: #ffffff;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Make the separators softer and cleaner */
+.main-nav::after,
+.main-nav::before {
+  content: "";
+}
+
+/* Nav links */
+.main-nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #0066cc; /* Cayman-compatible blue */
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+  color: #004999;
+}
