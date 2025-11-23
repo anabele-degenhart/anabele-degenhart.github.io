@@ -45,3 +45,18 @@ body {
   text-decoration: underline;
   color: #004999;
 }
+
+/* Profile photo styling */
+.profile-photo {
+  text-align: center;
+  margin-top: -40px; /* pull the photo slightly into the header */
+  margin-bottom: 20px;
+}
+
+.profile-photo img {
+  width: 180px;         /* adjust size */
+  height: auto;
+  border-radius: 50%;   /* circle crop */
+  border: 4px solid #ffffff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}

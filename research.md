@@ -3,6 +3,11 @@ layout: default
 title: Research & Teaching
 permalink: /research/
 ---
+
+<div class="profile-photo">
+  <img src="/assets/img/me.jpg" alt="Portrait of Anabele" />
+</div>
+
 <nav class="main-nav">
   <a href="/">About Me</a>
   <span>·</span>

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Publications
-permalink: /publications/
+title: Projects
+permalink: /projects/
 ---
 
 <div class="profile-photo">
@@ -20,6 +20,6 @@ permalink: /publications/
   <a href="/gallery/">Gallery</a>
 </nav>
 
-# Publications
+# Projects
 
 Work in progress — coming soon.
